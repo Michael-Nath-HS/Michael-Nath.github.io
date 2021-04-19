@@ -1,0 +1,80 @@
+{
+    "content": [
+        [
+            {
+                "name": "Green Tea Catechins and the Levels of miR-125b-5p in MCF-7 Breast Cancer Cells",
+                "description": "From March 2019 to April 2020, I worked in a molecular biology research lab at John Jay College for Criminal Justice, investigating the relationship between green tea compounds and microRNAs associated with breast cancer. Through conducting this research, I have become specialized in molecular biology datasets, proficient in handling lab equipment, and have developed effective communicating skills for use in experiment formulation.",
+                "tools": ["DAVID Bioinformatics Software", "Hemocytometry", "qPCR Machine"],
+                "docs": [
+                    {
+                        "name": "Poster",
+                        "link": "http://localhost:3000/Green_Tea_Catechin_Poster.pdf"
+                    }, 
+                    {
+                        "name": "Paper",
+                        "link": "http://localhost:3000/Green_Tea_Catechin_Paper.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Computationally Locating Transcription Factor Binding Sites",
+                "description": "During the summer of my junior year in high school, I participated in the nation’s only pre-collegiate computational biology summer camp, located at Carnegie Mellon University. I constructed fundamental algorithms in the field, leveraging paradigms such as clustering heuristics and dynamic programing. My team’s final project: “Computationally Locating Transcription Factor Binding Regions” won “Best Final Project” among 12 teams in the camp and was featured in Dr. Phillip Compeau’s online course: “Multiscale Biological Modeling”.",
+                "tools": ["Golang Programming Language", "Metagenomics", "Sequencing Alignments (BLAST)", "Genome Reconstruction", "Evolutionary Tree Construction (UPGMA)"],
+                "docs": [
+                    {
+                        "name": "Letter of Evaluation",
+                        "link": "http://localhost:3000/nath_michael_pccbletter.pdf"
+                    }, 
+                    {
+                        "name": "Project Video",
+                        "link": "https://youtu.be/G3Lr_zebTnE"
+                    },
+                    {
+                        "name": "Video Featured",
+                        "link": "https://phcompeau.github.io/biological_modeling_course/motifs/transcription"
+                    }
+                ]
+
+            },
+            {
+                "name": "aqOAPorin-4: Investigating Array Formation in M1 and M23 Isoforms",
+                "description": "",
+                "tools": []
+            }
+        ],
+        [
+            {
+                "name": "Monkey Moo",
+                "description": "",
+                "tools": []
+            },
+            {
+                "name": "",
+                "description": "",
+                "tools": []
+            },
+            {
+                "name": "",
+                "description": "",
+                "tools": []
+            }
+        ],
+        [
+            {
+                "name": "",
+                "description": "",
+                "tools": []
+            },
+            {
+                "name": "",
+                "description": "",
+                "tools": []
+            },
+            {
+                "name": "",
+                "description": "",
+                "tools": []
+            }
+        ]
+    ]
+}
