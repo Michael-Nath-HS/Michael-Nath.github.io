@@ -8,11 +8,11 @@
                 "docs": [
                     {
                         "name": "Poster",
-                        "link": "http://localhost:3000/Green_Tea_Catechin_Poster.pdf"
+                        "link": "Green_Tea_Catechin_Poster.pdf"
                     }, 
                     {
                         "name": "Paper",
-                        "link": "http://localhost:3000/Green_Tea_Catechin_Paper.pdf"
+                        "link": "Green_Tea_Catechin_Paper.pdf"
                     }
                 ]
             },
@@ -23,7 +23,7 @@
                 "docs": [
                     {
                         "name": "Letter of Evaluation",
-                        "link": "http://localhost:3000/nath_michael_pccbletter.pdf"
+                        "link": "nath_michael_pccbletter.pdf"
                     }, 
                     {
                         "name": "Project Video",

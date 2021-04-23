@@ -16,10 +16,10 @@ import {
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import BuildIcon from "@material-ui/icons/Build";
 import AdjustIcon from "@material-ui/icons/Adjust";
-
 const useStyles = makeStyles({
 	card: {
 		backgroundColor: "#151515",
+		padding: "1.5vw",
 		marginBottom: "5vh",
 	},
 	header: {
@@ -30,6 +30,10 @@ const useStyles = makeStyles({
 	},
 	button: {
 		color: "#FFDD03",
+		borderColor: "#3f51b5",
+		"&:hover": {
+			backgroundColor: "#021c4f",
+		},
 	},
 });
 
@@ -44,9 +48,7 @@ function ProjectTab({ name, description, tools, docs }) {
 				<Collapse in={expanded} unmountOnExit>
 					<CardContent>
 						<List className={classes.description}>
-							<ListItem component="h2">
-								Tools Learned
-							</ListItem>
+							<ListItem component="h2">Tools Learned</ListItem>
 							{tools.map((tool, i) => {
 								return (
 									<ListItem component="h4" key={i}>
@@ -64,13 +66,19 @@ function ProjectTab({ name, description, tools, docs }) {
 					className={classes.description}
 					onClick={() => setExpanded(!expanded)}
 				>
-					{expanded ? <ExpandLessIcon/> : <BuildIcon />}
+					{expanded ? <ExpandLessIcon /> : <BuildIcon />}
 				</IconButton>
 			</CardContent>
 			<CardActions>
 				{docs.map((doc, i) => {
 					return (
-						<Button href={doc.link} className={classes.button} key={i}>
+						<Button
+							size="large"
+							variant="outlined"
+							href={doc.link}
+							className={classes.button}
+							key={i}
+						>
 							{doc.name}
 						</Button>
 					);
